@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Ulugbekivich.DataAccess\Ulugbekivich.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Projects\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Security\" />
   </ItemGroup>
 
 </Project>

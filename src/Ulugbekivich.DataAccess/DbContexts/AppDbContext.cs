@@ -13,6 +13,7 @@ namespace Ulugbekivich.DataAccess.DbContexts
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public virtual DbSet<Project> Projects { get; set; } = default!;
+        public virtual DbSet<Admin> Admins { get; set; } = default!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
