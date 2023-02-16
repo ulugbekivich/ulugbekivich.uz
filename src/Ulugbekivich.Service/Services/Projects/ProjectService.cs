@@ -9,7 +9,6 @@ using Ulugbekivich.DataAccess.Repositories;
 using Ulugbekivich.Domain.Entities;
 using Ulugbekivich.Service.Common.Exceptions;
 using Ulugbekivich.Service.Dtos.Projects;
-using Ulugbekivich.Service.Exceptions;
 using Ulugbekivich.Service.Interfaces;
 using Ulugbekivich.Service.Interfaces.Projects;
 
