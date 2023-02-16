@@ -12,3 +12,4 @@ namespace Ulugbekivich.Domain.Common
 
         public DateTime UpdatedAt { get; set; }
     }
+}
