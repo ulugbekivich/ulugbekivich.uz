@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ulugbekivich.Domain.Exceptions;
+namespace Ulugbekivich.Service.Exceptions;
 
 public class StatusCodeException : Exception
 {
