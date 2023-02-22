@@ -639,6 +639,8 @@ hr {
   }
 }
 .post-entry .desc {
+  display: flex;
+  gap: 150px;
   padding: 2em;
   background: rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 0px 10px 30px -13px rgba(0, 0, 0, 0.75);
@@ -650,6 +652,11 @@ hr {
   font-size: 40px;
   line-height: 54px;
 }
+
+.post-entry .desc h5{
+  font-size: 14px;
+}
+
 .post-entry .desc p {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
